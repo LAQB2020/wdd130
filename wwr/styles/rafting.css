@@ -316,7 +316,7 @@ label[for="message"]{
 
 }
 
-.newsletter-form button{
+.newsletter-form button, .trip-button{
 
     margin-top:30px;
 
@@ -467,7 +467,7 @@ label[for="message"]{
 }
 
 
-/* Table */
+
 
 .trip-table{
 
@@ -517,7 +517,6 @@ label[for="message"]{
 }
 
 
-/* Responsive */
 
 @media screen and (max-width:850px){
 
@@ -541,5 +540,11 @@ label[for="message"]{
 
     }
 
+}
+
+.trip-button{
+    position: relative;
+    top: -60px;
+    left: 350px;
 }
 
